@@ -1,0 +1,4 @@
+node_modules/
+config/auth.json
+config/config.json
+log/*
