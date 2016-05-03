@@ -54,6 +54,7 @@ bot.Dispatcher.on(discordie.Events.GATEWAY_READY, function(e) {
 	global.bot_id = bot.User.id;
 	global.bot = bot.User;
 	global.discordie = bot;
+	global.botName = config._.name;
 	//bot.User.edit(null, null, fs.readFileSync("profile.png")); // temp profile update
 
 	mods.loader.load(commandeer);
