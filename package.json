@@ -1,33 +1,37 @@
 {
-  "name": "omnibot",
-  "version": "1.0.0",
-  "description": "A Discord bot, with numerous functions.",
-  "main": "index.js",
-  "dependencies": {
-    "discordie": "^0.5.7",
-    "express": "^4.13.4",
-    "lame": "^1.2.3",
-    "node-soundcloud": "0.0.5",
-    "relations": "^0.5.0",
-    "request": "^2.72.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hedgehog1029/omnibot.git"
-  },
-  "keywords": [
-    "discord",
-    "bot",
-    "node"
-  ],
-  "author": "hedgehog1029 / offbeatwitch",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hedgehog1029/omnibot/issues"
-  },
-  "homepage": "https://github.com/hedgehog1029/omnibot#readme"
+    "name": "Disquotes - BOT",
+    "version": "1.0.2",
+    "description": "A Discord bot, with numerous functions.",
+    "main": "index.js",
+    "dependencies": {
+        "discordie": "^0.5.7",
+        "express": "^4.13.4",
+        "lame": "^1.2.3",
+        "minimist": "^1.2.0",
+        "node-soundcloud": "0.0.5",
+        "relations": "^0.5.0",
+        "request": "^2.72.0",
+        "winston": "^2.2.0"
+    },
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Zephyrrus/omnibot.git"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "node"
+    ],
+    "author": "hedgehog1029 / offbeatwitch",
+    "contributors": [{
+        "name": "Zephy"
+    }],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Zephyrrus/omnibot/issues"
+    },
+    "homepage": "https://github.com/Zephyrrus/omnibot#readme"
 }
